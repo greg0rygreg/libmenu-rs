@@ -5,7 +5,7 @@ use rand::Rng;
 fn main() -> Result<(), String> {
     let mut o: i32 = 0;
     let mut rng = rand::rng();
-    let menu = Menu::new("libdraw-rs 0.1.0 example", "1.1.1", vec!["print something", "print random number", "info"], None);
+    let menu = Menu::new("libmenu-rs 0.1.0 example", "1.1.1", vec!["print something", "print random number", "info"], None);
     clear();
     loop {
         menu.get_input(&mut o, true, true).ok();
