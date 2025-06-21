@@ -39,3 +39,6 @@ libmenu-rs = { path = "../libmenu-rs" }
 ```sh
 cargo run -p your_app_name --release
 ```
+
+## TODO
+- [x] document ~~that~~ this README
